@@ -1,0 +1,62 @@
+html   {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: whitesmoke;
+    color: black;
+}
+
+.navbar {
+    background: powderblue ;
+    font-size: large;
+    margin: 4px auto;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(99, 99, 148);
+
+}
+
+.navbar a   {
+    background: ;
+    text-decoration: none;
+    color: rgb(49, 91, 126);
+
+}
+
+.nonsense1   {
+    background: cornsilk ;
+    border-top: 3px groove slategray;
+    border-left: 3px groove slategray;
+    border-right: 3px groove slategray;
+    margin: auto;
+    padding: 1%;
+    width: 65%;
+    text-align: justify;
+    text-justify: newspaper;
+}
+
+.nonsense2   {
+    background: cornsilk ;
+    border-bottom: 3px groove slategray;
+    border-left: 3px groove slategray;
+    border-right: 3px groove slategray;
+    margin: auto;
+    padding: 1%;
+    width: 65%;
+    text-align: justify;
+    text-justify: newspaper;
+}
+
+#quote  {
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    background: blanchedalmond;
+    width: 80%;
+    font-weight: 600;
+
+}
+
+#heading  {
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codepen Assignment: Adam Metcalf</title>
+</head>
+<body>
+    <h2 class="h1-styled">My Codepen Thingy</h2>
+    
+    <h4>Find what I've hidden!</h4>
+
+    <p id="para-1">
+        For this assignment, I've chosen to construct an intricate lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus sed sapien ut porttitor. Phasellus ac ullamcorper lorem. Nam scelerisque purus sed nisi aliquam, in cursus purus faucibus. Duis tempor aliquam velit, vitae aliquet leo tempus ut. Morbi vulputate is a real puzzle! But if you follow the justo sed metus venenatis, non rutrum diam porttitor. Cras venenatis consectetur aliquam. Nulla eleifend justo id dui tempor, eu dignissim ante sagittis. Quisque nisl lorem, molestie ac vestibulum id, semper id lorem.
+    </p>
+
+    <h4>Things that won't help:</h4>
+    <img id="hiddenImage" src="https://bugguide.net/images/cache/G03/QI0/G03QI0JQP0VRSQURRQURYKAR7QH0603RKQYRSQOR20000QJRKQH0SQS0P0CRXQQ0E0Q0E0S0U0S00QJRLQ3QZQARXQ.jpg" alt="Sphecius convallis">
+    <ul>
+        <li>Cursing</li>
+        <li>Baseball</li>
+        <li>Cheating</li>
+    </ul>
+
+    <h4>Keep in mind:</h4>
+    <ol>
+        <li>Don't be duped</li>
+        <li>Land-grab</li>
+        <li><a href="https://en.wikipedia.org/wiki/Cicada" target="_blank">Kill 'em all!</a></li>
+        <li>Click less than Dorothy</li>
+    </ol>
+        
+    <p id="para-2">
+        Nam sollicitudin orci eu cursus consequat. Aliquam vehicula lobortis urna, lobortis faucibus neque tincidunt non. Vestibulum volutpat sed nulla euismod sagittis. Pellentesque id facilisis est, eu elementum ante. Suspendisse iaculis iaculis porta. Vivamus cursus tincidunt gravida. Praesent consequat convallis <a href="#" id="hidden-link" onclick="showImage()">convallis</a> ullamcorper sapien sed iaculis. Sed maximus ante non enim iaculis, id egestas ex molestie. Vivamus libero ante, tincidunt vitae sapien sed, semper consectetur massa. Proin efficitur, lectus ac consequat commodo, justo magna consequat diam, sit amet elementum est lacus eget dui. Donec venenatis leo felis, id interdum tellus interdum vel. Aliquam velit purus, egestas non massa at, molestie cursus lectus. Fusce laoreet placerat ante et sollicitudin. Nunc dignissim vehicula congue. 
+    </p>
+        
+ 
+</body>
+
+<style>
+
+    #hiddenImage {
+        width: 40%;
+        display: none;
+        float: right;
+        margin-right: 3%;
+    }
+
+    #hidden-link {
+        pointer-events: auto;
+        cursor: text;
+        color: black;
+        text-decoration: none;        
+    }
+
+    #para-1, #para-2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 50%;
+        text-align: justify;
+        text-justify: inter-word;
+        padding: 5px;
+    }
+
+    h2,h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        padding: 5px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    ul, ol {
+        margin: 1.2%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+ 
+</style>
+
+<script>
+    function showImage() {
+    var x = document.getElementById("hiddenImage");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+    } 
+</script>
+
+</html>
