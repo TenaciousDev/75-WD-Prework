@@ -1,3 +1,87 @@
 body {
-  background-color: slategrey;
+  background-color: tomato;
+}
+
+.circle {
+  background-color: white;
+  height: 45em;
+  width: 45em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 22.5em;
+  box-shadow: 0 0 2em black;
+}
+
+.topBun {
+  background-color: tan;
+  height: 5.5em;
+  width: 28em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 15em;
+  right: 0;
+  margin: auto;
+  border-radius: 25% 25% 0 0;
+  box-shadow: 0 0 0.5em grey;
+}
+
+.bottomBun {
+  background-color: tan;
+  height: 5.5em;
+  width: 28em;
+  position: absolute;
+  top: 20em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 25% 25%;
+  box-shadow: 0 0 0.5em grey;
+  margin: auto;
+}
+
+.ketchup {
+  background-color: tomato;
+  height: 0.8em;
+  width: 28em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 6em;
+  right: 0;
+  margin: auto;
+  border-radius: 5em;
+  box-shadow: 0 0 0.5em grey;
+}
+
+.lettuce {
+  background: greenyellow;
+  height: 1.2em;
+  width: 28em;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 2.1em;
+  left: 0;
+  border-radius: 25% 29% 15% 35%;
+  box-shadow: 0 0 0.5em grey;
+}
+
+.allBeefPatty {
+  background: brown;
+  height: 5.5em;
+  width: 29em;
+  position: absolute;
+  top: 7em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 4.5em;
+  box-shadow: 0 0 0.5em grey;
+  margin: auto;
 }

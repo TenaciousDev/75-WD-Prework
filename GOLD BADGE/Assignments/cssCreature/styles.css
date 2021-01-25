@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(93, 147, 161);
+}
+
+.creature {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 25% 100px auto;
+  grid-gap: 1rem;
+  background-color: pink;
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  border: grey 1px solid;
+}
