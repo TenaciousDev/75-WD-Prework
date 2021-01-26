@@ -1,15 +1,93 @@
 body {
-  background-color: rgb(93, 147, 161);
+  background: slategrey;
 }
 
-.creature {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-template-rows: 25% 100px auto;
-  grid-gap: 1rem;
-  background-color: pink;
-  position: absolute;
-  height: 90%;
-  width: 90%;
-  border: grey 1px solid;
+.wrapper {
+  height: 50rem;
+  width: 50rem;
+  margin: auto;
+  padding-top: 5rem;
+  box-shadow: 0 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
 }
+
+.hat {
+  position: relative;
+  height: 12rem;
+  width: 25rem;
+  top: -4rem;
+  margin: auto;
+  border-bottom: 3rem solid peachpuff;
+  border-radius: 51% 49% 50% 50% / 72% 72% 28% 28%;
+  background: black;
+  z-index: -1;
+}
+
+.head {
+  position: relative;
+  background: peachpuff;
+  height: 30rem;
+  width: 25rem;
+  margin: auto;
+  top: -19rem;
+  border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  z-index: -2;
+}
+
+.head:before,
+.head:after {
+  content: close-quote;
+  position: absolute;
+  border-bottom: 25rem solid orangered;
+  border-left: 6rem solid transparent;
+  border-right: 6rem solid transparent;
+  border-radius: 25% / 50%;
+  top: 24rem;
+  left: 5rem;
+  transform: rotate(-175deg);
+}
+
+.head:after {
+  left: auto;
+  right: 5rem;
+  transform: rotate(175deg);
+}
+
+.mustache {
+  position: relative;
+  height: 12rem;
+  width: 7rem;
+  border-radius: 150px 0 0 150px;
+  border-top: 3rem solid orangered;
+  border-left: 6rem solid orangered;
+  border-bottom: 3rem solid orangered;
+  transform: translate(100px) rotate(90deg);
+  top: 18rem;
+  left: 12.25rem;
+  top: -33rem;
+  z-index: -1;
+}
+
+/* .leftBeard {
+  height: 20em;
+  width: 15em;
+  border: 1px solid red;
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  transform: rotate(-30deg);
+  margin: auto;
+  position: relative;
+  left: -5em;
+  top: -15%;
+}
+
+.rightBeard {
+  height: 20em;
+  width: 15em;
+  border: 1px solid red;
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  transform: rotate(-30deg);
+  margin: auto;
+  position: relative;
+  left: 5em;
+  top: -57%;
+} */
