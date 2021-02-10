@@ -1,0 +1,34 @@
+body {
+  display: grid;
+  gap: 5vmin;
+  grid-template-areas: ". ." "rick morty" ". .";
+  padding: 25vmin;
+  background: rgb(88, 86, 86);
+}
+
+#imageOne,
+#imageTwo {
+  justify-self: center;
+  align-self: center;
+  border: 2px inset black;
+  border-radius: 5%;
+  box-shadow: 3px 4px 10px -2px black;
+}
+
+#imageOne {
+  grid-area: rick;
+}
+
+#imageTwo {
+  grid-area: morty;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    min-width: 500px;
+    grid-template-rows: 2;
+    grid-template-columns: 1;
+    grid-template-areas: "rick" "morty";
+    padding: 12vmin;
+  }
+} ;
