@@ -1,0 +1,32 @@
+#about {
+  margin: auto;
+  padding-top: 10vmin;
+}
+
+.about > p {
+  font-size: 12pt;
+  text-align: justify;
+  /* border: 1px dashed white; */
+  hyphens: auto;
+}
+
+.img-about {
+  width: 100%;
+  border-radius: 10% / 5%;
+  box-shadow: 4px 2px 8px 3px black;
+  /* box-shadow: 0.25ch 0.1ch 0.5ch black; */
+}
+
+.link-hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.link-hover:hover {
+  text-decoration: underline;
+  color: var(--fontColor-dark);
+}
+
+.bi-file-earmark-arrow-down {
+  font-size: 1.5rem;
+}

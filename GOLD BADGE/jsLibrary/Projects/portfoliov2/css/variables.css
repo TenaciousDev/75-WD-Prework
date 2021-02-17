@@ -1,7 +1,11 @@
 :root {
-  --brown: #6d6656;
-  --grey: #53565a;
-  --black: #272727;
-
-  --font-one: "Amatic SC", cursive;
+  --bgColor-dark: rgb(52, 58, 64);
+  --bgColor-shade: rgb(222, 226, 230);
+  --bgcolor-light: rgb(248, 249, 250);
+  --fontColor-dark: rgb(248, 249, 250);
+  --fontColor-shade: rgb(33, 37, 41);
+  --fontColor-light: rgb(8, 8, 8);
+  --fontFamily-hero: "Comfortaa", "Montserrat", Arial, sans-serif;
+  --fontFamily-heading: "Open Sans", Arial, sans-serif;
+  --fontFamily-text: "Montserrat", Arial, sans-serif;
 }

@@ -1,0 +1,16 @@
+body {
+  /* margin: 0; */
+  font-family: var(--fontFamily-text);
+  font-size: 14pt;
+  background-color: var(--bgColor-dark);
+  /* width: 100vw; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontFamily-heading);
+  font-weight: 500;
+}

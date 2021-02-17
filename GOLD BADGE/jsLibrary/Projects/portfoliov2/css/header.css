@@ -1,0 +1,44 @@
+#header {
+  height: 100vh;
+}
+
+.hero-h1,
+.hero-tag,
+.hero-i {
+  font-family: var(--fontFamily-hero);
+  text-shadow: 0.25ch 0.1ch 0.5ch black;
+}
+.hero-h1 {
+  font-size: 60pt;
+  font-weight: 500;
+}
+
+.hero-tag {
+  font-size: 32pt;
+  font-weight: 300;
+  line-height: 0;
+  letter-spacing: -2pt;
+}
+
+@media screen and (min-width: 400px) {
+  .hero-tag {
+    font-size: 32pt;
+    font-weight: 300;
+    line-height: 0;
+    letter-spacing: -2pt;
+  }
+}
+
+.hero-i {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 400px) {
+  .hero-i {
+    font-size: 4rem;
+  }
+}
+
+.hero-tag-wrapper {
+  width: 100%;
+}

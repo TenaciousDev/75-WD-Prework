@@ -1,0 +1,21 @@
+#projects {
+  min-height: 75vmin;
+  margin-bottom: 5rem;
+}
+
+.projects > .project {
+  /* border: 1px dotted white; */
+  min-height: 10vmin;
+}
+
+.figure.project > img {
+  box-shadow: 0.25ch 0.1ch 0.5ch black;
+}
+
+.figure-caption.project {
+  color: var(--fontColor-dark);
+}
+
+.project.blurb {
+  font-size: 12pt;
+}
